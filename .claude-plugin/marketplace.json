@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cc-plugins",
+  "description": "Claude Code plugins by Future Gadgets AI.",
+  "owner": {
+    "name": "Future Gadgets AI"
+  },
+  "plugins": [
+    {
+      "name": "agentic-dev",
+      "description": "Agentic development workflows with GitHub integration — turn 'fix this' / 'ship that' into a well-formed issue, a verified change, and a review-ready PR through a gated issue/branch/PR flow.",
+      "author": {
+        "name": "Lucas Brandão"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Future-Gadgets-AI/agentic-dev.git"
+      },
+      "license": "MIT",
+      "category": "workflow",
+      "keywords": [
+        "github",
+        "agentic",
+        "workflow",
+        "development",
+        "git",
+        "pull-request",
+        "issue"
+      ],
+      "homepage": "https://github.com/Future-Gadgets-AI/agentic-dev"
+    }
+  ]
+}
